@@ -8,10 +8,6 @@ async function bootstrap() {
     await app.listen(3000);
 }
 
-bootstrap()
-    .then(() => {
-        // no implement
-    })
-    .catch(() => {
-        // no implement
-    });
+bootstrap().catch(() => {
+    // no implement
+});
