@@ -1,0 +1,10 @@
+{
+  "name": "socned",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "server": "npm run start:dev --prefix server",
+    "client": "npm run build --prefix ui"
+  },
+  "private": true
+}
