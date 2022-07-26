@@ -10,7 +10,7 @@ import { AppService } from './app.service';
 @Module({
     imports: [
         ServeStaticModule.forRoot({
-            rootPath: join(__dirname, 'ui'),
+            rootPath: join(__dirname, 'wwwroot'),
             exclude: ['/api*']
         })
     ],
